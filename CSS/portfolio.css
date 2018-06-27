@@ -1,0 +1,136 @@
+body {
+    margin: 0 auto;
+}
+
+.page {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #02b3e4;
+    -webkit-box-shadow: 0px 11px 76px -1px rgba(45, 60, 73, 1);
+    -moz-box-shadow: 0px 11px 76px -1px rgba(45, 60, 73, 1);
+    box-shadow: 0px 11px 76px -1px rgba(45, 60, 73, 1);
+}
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+    width: 100%;
+    height: 70%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.logo-wrap {
+    width: 100px;
+    padding-top: 70px;
+}
+
+.title {
+    text-align: right;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #2d3c49
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    display: block;
+    border-top: 3px solid #7d97ad
+}
+
+.featured {
+    color: #7d97ad;
+    margin: 0 auto;
+}
+
+.img1 {
+    color: #2d3c49;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img2 {
+    color: #2d3c49;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img3 {
+    color: #2d3c49;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+    .heading {
+        height: 200px;
+        font-size: 14px;
+    }
+    .logo-wrap {
+        width: 100px;
+        height: 100px;
+        padding-bottom: 20px;
+    }
+}
+
+.hero {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1 {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+    .img {
+        flex-direction: column;
+    }
+}
